@@ -4,6 +4,8 @@
 
 var people = ["Erik", "Aaron", "Alicia", "Casie", "Clare", "Cody", "Jeanne", "Kaitlin", "Kelly", "Luke", "Mary", "Michael", "Michelle", "Rom", "Steve", "Terry", "Tracy", "Vince", "Brian", "Chelsea"];
 
-$(document).read( function(){
-   $
+$(document).ready( function(){
+   $(".two").on("click", function(){
+       people.length
+   });
 });
