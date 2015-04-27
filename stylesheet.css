@@ -1,21 +1,29 @@
-
-#container div {
-    width: 15px;
+body {
+    background-image: url("USS.png");
+    background-repeat: no-repeat;
+}
+p {
+    width: 100px;
     display: inline-block;
     float: left;
+    margin-right: 10px;
+    color: whitesmoke;
 }
 
 .numberButton {
     width: 100px;
     height: 100px;
-    background-color: aqua;
+    background-color: antiquewhite;
     margin-right: 10px;
     display: inline-block;
     float: left;
 }
 
-.random {
-    height: 50px;
+#shuffleButton {
+    height: 25px;
     width: 100px;
-    background-color: cornflowerblue;
+    display: inline-block;
+    float: left;
+    margin-top: 10px;
+background-color: darkgray;
 }

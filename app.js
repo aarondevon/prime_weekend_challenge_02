@@ -50,7 +50,7 @@ $(document).ready(function () {
         clearTeams();
 
         for(var i = 0; i < nameArray.length; i++){
-            $("#team" + count).append("<p>" + nameArray[i] + "</p>");
+            $("#team" + count).append("<p>" + nameArray[i] + "</p>").hide().fadeIn(500);
             count++;
             if(count == teamSize){
                 count = 0;
