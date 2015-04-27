@@ -1,22 +1,22 @@
 body {
-    background-image: url("USS.png");
-    background-repeat: no-repeat;
+    background-color: cornsilk;
 }
 p {
     width: 100px;
     display: inline-block;
     float: left;
     margin-right: 10px;
-    color: whitesmoke;
 }
 
 .numberButton {
     width: 100px;
     height: 100px;
-    background-color: antiquewhite;
+    background-color: darksalmon;
     margin-right: 10px;
     display: inline-block;
     float: left;
+    border-radius: 25px;
+    text-align: center;
 }
 
 #shuffleButton {
@@ -25,5 +25,7 @@ p {
     display: inline-block;
     float: left;
     margin-top: 10px;
-background-color: darkgray;
+    border-radius: 25px;
+    text-align: center;
+background-color: aliceblue;
 }
